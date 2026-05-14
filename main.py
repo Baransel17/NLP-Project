@@ -109,7 +109,7 @@ plt.figure(figsize=(7, 4))
 models = ['Logistic Regression', 'Naive Bayes']
 scores = [lr_acc, nb_acc]
 bars = plt.bar(models, scores, color=['steelblue', 'coral'])
-plt.ylim(0.5, 1.0)
+plt.ylim(0, 0.8)
 plt.title('Model Accuracy Comparison')
 plt.ylabel('Accuracy')
 for bar, score in zip(bars, scores):
